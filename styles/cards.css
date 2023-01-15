@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Poppins';
+}
+
+.main-container {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+/* .contador {
+    
+    color: greenyellow;
+    font-size: 20px;
+} */
+
+
+
+.main-card {
+    width: 250px;
+    height: 300px;
+    outline: 10px solid greenyellow;
+    border: white solid 7px;
+    border-radius: 20px;
+    border-style: dashed;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+        
+}
+
+
+
+.main-card .kanji {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.main-card .hira,.roma{
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+} 
+
+
+
+.cards-container {
+    padding: 0 20px ;
+    min-height: 300px;
+    border-radius: 20px;
+    border: greenyellow 10px dashed;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    gap: 50px;
+}
+
+.card {
+    width: 120px;
+    height: 150px;
+    outline: 5px solid greenyellow;
+    border: white solid 4px;
+    border-radius: 20px;
+    border-style: dashed;
+    background-color: greenyellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.card img {
+    width: 80px;
+    margin-top: 20px;
+}
+
+.card p {
+    font-weight: bold;
+    color: white;
+    margin-top: 10px;
+    font-family: 'Poppins';
+}
+

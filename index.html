@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <title>last</title>
+    
+</head>
+<body>
+    <div class="main-container">
+        <div class="image-container uno">
+            
+        </div>
+        <div class="image-container dos">
+            dos 
+        </div>
+        <div class="image-container tres">
+            tres
+        </div>
+        <div class="image-container cuatro">
+            cuatro
+        </div>
+        <div class="image-container cinco">
+            cinco
+        </div>
+        <div class="image-container seis">
+            
+            <div class="container">
+                <div class="image-cube">
+                    <div class="front">
+                        <!-- <img src="./images/images.jfif" alt=""> -->
+                        Seis
+                    </div>
+
+                    <div class="top">
+
+                    </div>
+                    <div class="right">
+                        <!-- <img src="./images/portada_takagi-5.jpg" alt=""> -->
+                    </div>
+                    <div class="back">
+                        <!-- <img src="./images/takagi.jpg" alt=""> -->
+                    </div>
+                    <div class="left">
+                        <!-- <img src="./images/Takagi en carpeta.jpg"> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="image-container siete">
+            siete
+        </div>
+        <div class="image-container ocho">
+            ocho
+        </div>
+        
+        <div class="image-container diez">
+            nueve
+        </div>
+
+        <div class="image-container">diez</div>
+        
+        
+        
+    </div>
+    <script>
+
+        let cube = document.querySelector(".image-cube")
+        
+        let pos = 0;
+    
+
+        setInterval(() => {
+            pos+= 90;
+            cube.style.transform = `rotateY(${pos}deg)`
+        }, 5000);
+
+
+    </script>
+</body>
+</html>
